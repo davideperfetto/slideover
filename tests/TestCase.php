@@ -1,9 +1,9 @@
 <?php
 
-namespace LivewireUI\Modal\Tests;
+namespace LivewireUI\Slideover\Tests;
 
 use Livewire\LivewireServiceProvider;
-use LivewireUI\Modal\LivewireModalServiceProvider;
+use LivewireUI\Slideover\LivewireSlideoverServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -11,7 +11,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     {
         return [
             LivewireServiceProvider::class,
-            LivewireModalServiceProvider::class
+            LivewireSlideoverServiceProvider::class
         ];
     }
 

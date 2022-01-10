@@ -1,6 +1,6 @@
 const mix = require('laravel-mix');
 
-mix.js('resources/js/modal.js', 'public/')
-    .postCss("resources/css/modal.css", "public/", [
+mix.js('resources/js/slideover.js', 'public/')
+    .postCss("resources/css/slideover.css", "public/", [
         require("tailwindcss"),
     ]);

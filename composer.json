@@ -1,9 +1,9 @@
 {
-  "name": "wire-elements/modal",
-  "description": "Laravel Livewire modal component",
+  "name": "wire-elements/slideover",
+  "description": "Laravel Livewire slideover component, forked from wire-elements modal component by Philo Hermans.",
   "keywords": [
     "laravel",
-    "modal",
+    "slideover",
     "livewire"
   ],
   "license": "MIT",
@@ -11,7 +11,11 @@
     {
       "name": "Philo Hermans",
       "email": "me@philohermans.com"
-    }
+    },
+    {
+        "name": "Davide Perfetto",
+        "email": "d.perfetto@gmail.com"
+      }
   ],
   "require-dev": {
     "orchestra/testbench": "^6.15",
@@ -24,7 +28,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "LivewireUI\\Modal\\LivewireModalServiceProvider"
+        "LivewireUI\\Slideover\\LivewireSlideoverServiceProvider"
       ]
     }
   },
@@ -35,12 +39,12 @@
   },
   "autoload": {
     "psr-4": {
-      "LivewireUI\\Modal\\": "src"
+      "LivewireUI\\Slideover\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "LivewireUI\\Modal\\Tests\\": "tests"
+      "LivewireUI\\Slideover\\Tests\\": "tests"
     }
   },
   "minimum-stability": "dev",

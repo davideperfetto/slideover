@@ -1,10 +1,10 @@
 <?php
 
-namespace LivewireUI\Modal\Tests\Components;
+namespace LivewireUI\Slideover\Tests\Components;
 
-use LivewireUI\Modal\ModalComponent;
+use LivewireUI\Slideover\SlideoverComponent;
 
-class DemoModal extends ModalComponent
+class DemoSlideover extends SlideoverComponent
 {
     public function render()
     {
